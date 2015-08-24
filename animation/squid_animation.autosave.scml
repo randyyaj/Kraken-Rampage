@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r4.1">
+    <folder id="0">
+        <file id="0" name="01_tentacle.png" width="115" height="51" pivot_x="0.052174" pivot_y="0.313725"/>
+        <file id="1" name="03_tentacle.png" width="92" height="48" pivot_x="0.044444" pivot_y="0.354167"/>
+        <file id="2" name="02_tentacle.png" width="107" height="47" pivot_x="0.0571429" pivot_y="0.333333"/>
+        <file id="3" name="back_tentacle.png" width="82" height="55" pivot_x="0.060976" pivot_y="0.345455"/>
+        <file id="4" name="dome.png" width="73" height="100" pivot_x="0.369863" pivot_y="0.27"/>
+        <file id="5" name="left_eye.png" width="17" height="20" pivot_x="0.470588" pivot_y="0.45"/>
+        <file id="6" name="left_front_tentacle.png" width="55" height="97" pivot_x="0.909091" pivot_y="0.309278"/>
+        <file id="7" name="mouth_open.png" width="34" height="29" pivot_x="0.5" pivot_y="0.551724"/>
+        <file id="8" name="right_eye.png" width="17" height="20" pivot_x="0.470588" pivot_y="0.4"/>
+        <file id="9" name="right_front_tentacle.png" width="55" height="97" pivot_x="0.090909" pivot_y="0.278351"/>
+        <file id="10" name="mouth_blowing.png" width="21" height="26" pivot_x="0" pivot_y="1"/>
+        <file id="11" name="ink_ball.png" width="15" height="24" pivot_x="0.466667" pivot_y="0.458333"/>
+        <file id="12" name="ink_splash_01.png" width="55" height="19" pivot_x="0.490909" pivot_y="0.210526"/>
+        <file id="13" name="ink_splash_02.png" width="110" height="47" pivot_x="0.590909" pivot_y="0.0851064"/>
+        <file id="14" name="ink_splash_03.png" width="133" height="39" pivot_x="0.488722" pivot_y="0.102564"/>
+        <file id="15" name="ink_splash_04.png" width="114" height="18" pivot_x="0.491228" pivot_y="0.055556"/>
+    </folder>
+    <entity id="0" name="squid">
+        <animation id="0" name="idle" length="240" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="2" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="0" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="6" key="0" z_index="3"/>
+                    <object_ref id="4" timeline="7" key="0" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="0" z_index="5"/>
+                    <object_ref id="6" timeline="3" key="0" z_index="6"/>
+                    <object_ref id="7" timeline="4" key="0" z_index="7"/>
+                </key>
+                <key id="1" time="60">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="2" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="0" key="1" z_index="2"/>
+                    <object_ref id="3" timeline="6" key="1" z_index="3"/>
+                    <object_ref id="4" timeline="7" key="1" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="1" z_index="5"/>
+                    <object_ref id="6" timeline="3" key="1" z_index="6"/>
+                    <object_ref id="7" timeline="4" key="1" z_index="7"/>
+                </key>
+                <key id="2" time="120">
+                    <object_ref id="0" timeline="1" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="2" key="2" z_index="1"/>
+                    <object_ref id="2" timeline="0" key="2" z_index="2"/>
+                    <object_ref id="3" timeline="6" key="2" z_index="3"/>
+                    <object_ref id="4" timeline="7" key="2" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="2" z_index="5"/>
+                    <object_ref id="6" timeline="3" key="2" z_index="6"/>
+                    <object_ref id="7" timeline="4" key="2" z_index="7"/>
+                </key>
+                <key id="3" time="180">
+                    <object_ref id="0" timeline="1" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="2" key="3" z_index="1"/>
+                    <object_ref id="2" timeline="0" key="3" z_index="2"/>
+                    <object_ref id="3" timeline="6" key="3" z_index="3"/>
+                    <object_ref id="4" timeline="7" key="3" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="3" z_index="5"/>
+                    <object_ref id="6" timeline="3" key="3" z_index="6"/>
+                    <object_ref id="7" timeline="4" key="3" z_index="7"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="dome">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-9" y="-2" angle="0"/>
+                </key>
+                <key id="1" time="60" spin="0">
+                    <object folder="0" file="4" x="-9" y="-6.864865" angle="0"/>
+                </key>
+                <key id="2" time="120" spin="0">
+                    <object folder="0" file="4" x="-9" y="-2.000003" angle="0"/>
+                </key>
+                <key id="3" time="180" spin="0">
+                    <object folder="0" file="4" x="-9" y="-7.813955" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="back_tentacle">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="15" y="-22" angle="0"/>
+                </key>
+                <key id="1" time="60" spin="0">
+                    <object folder="0" file="1" x="-30" y="-22" angle="0"/>
+                </key>
+                <key id="2" time="120" spin="0">
+                    <object folder="0" file="1" x="15" y="-19.95082" angle="0"/>
+                </key>
+                <key id="3" time="180" spin="0">
+                    <object folder="0" file="3" x="-29.084507" y="-22" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="back_tentacle_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="-18" y="-20" angle="0" scale_x="-1"/>
+                </key>
+                <key id="1" time="60" spin="0">
+                    <object folder="0" file="1" x="30" y="-20" angle="0" scale_x="-1"/>
+                </key>
+                <key id="2" time="120" spin="0">
+                    <object folder="0" file="1" x="-17" y="-20" angle="0" scale_x="-1"/>
+                </key>
+                <key id="3" time="180" spin="0">
+                    <object folder="0" file="3" x="26.59507" y="-20.704225" angle="0" scale_x="-1"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="left_eye">
+                <key id="0" spin="0">
+                    <object folder="0" file="5" x="-21.624611" y="10.037374" angle="0"/>
+                </key>
+                <key id="1" time="60" spin="0">
+                    <object folder="0" file="5" x="-21.624611" y="5.172509" angle="0"/>
+                </key>
+                <key id="2" time="120" spin="0">
+                    <object folder="0" file="5" x="-21.624611" y="10.03737" angle="0"/>
+                </key>
+                <key id="3" time="180" spin="0">
+                    <object folder="0" file="5" x="-21.624611" y="4.223419" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="right_eye">
+                <key id="0" spin="0">
+                    <object folder="0" file="8" x="3.602165" y="9.478711" angle="0"/>
+                </key>
+                <key id="1" time="60" spin="0">
+                    <object folder="0" file="8" x="3.602165" y="4.613846" angle="0"/>
+                </key>
+                <key id="2" time="120" spin="0">
+                    <object folder="0" file="8" x="3.602165" y="9.478707" angle="0"/>
+                </key>
+                <key id="3" time="180" spin="0">
+                    <object folder="0" file="8" x="3.602165" y="3.664756" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="mouth_open">
+                <key id="0" spin="0">
+                    <object folder="0" file="7" x="-4.923852" y="-11.868774" angle="0"/>
+                </key>
+                <key id="1" time="60" spin="0">
+                    <object folder="0" file="7" x="-4.923852" y="-16.733638" angle="0"/>
+                </key>
+                <key id="2" time="120" spin="0">
+                    <object folder="0" file="7" x="-4.923852" y="-11.868777" angle="0"/>
+                </key>
+                <key id="3" time="180" spin="0">
+                    <object folder="0" file="7" x="-4.923852" y="-17.682729" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="6" name="right_front_tentacle">
+                <key id="0" spin="0">
+                    <object folder="0" file="9" x="16.937175" y="-24.411019" pivot_x="0.095084" pivot_y="0.314245" angle="0"/>
+                </key>
+                <key id="1" time="60" spin="0">
+                    <object folder="0" file="9" x="16.937175" y="-17.716458" pivot_x="0.095084" pivot_y="0.314245" angle="0"/>
+                </key>
+                <key id="2" time="120" spin="0">
+                    <object folder="0" file="9" x="16.937175" y="-24.411018" pivot_x="0.095084" pivot_y="0.314245" angle="0"/>
+                </key>
+                <key id="3" time="180" spin="0">
+                    <object folder="0" file="9" x="16.937175" y="-14.41102" pivot_x="0.095084" pivot_y="0.314245" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="7" name="left_front_tentacle">
+                <key id="0" spin="0">
+                    <object folder="0" file="6" x="-18.567922" y="-25.283179" pivot_x="0.922761" pivot_y="0.309972" angle="0"/>
+                </key>
+                <key id="1" time="60" spin="0">
+                    <object folder="0" file="6" x="-18.567922" y="-18.588618" pivot_x="0.922761" pivot_y="0.309972" angle="0"/>
+                </key>
+                <key id="2" time="120" spin="0">
+                    <object folder="0" file="6" x="-18.567922" y="-25.283178" pivot_x="0.922761" pivot_y="0.309972" angle="0"/>
+                </key>
+                <key id="3" time="180" spin="0">
+                    <object folder="0" file="6" x="-18.567922" y="-15.28318" pivot_x="0.922761" pivot_y="0.309972" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="inking" length="200" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="2" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="0" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="6" key="0" z_index="3"/>
+                    <object_ref id="4" timeline="7" key="0" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="0" z_index="5"/>
+                    <object_ref id="6" timeline="3" key="0" z_index="6"/>
+                    <object_ref id="7" timeline="4" key="0" z_index="7"/>
+                </key>
+                <key id="1" time="60">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="2" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="0" key="1" z_index="2"/>
+                    <object_ref id="3" timeline="6" key="1" z_index="3"/>
+                    <object_ref id="4" timeline="7" key="1" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="1" z_index="5"/>
+                    <object_ref id="6" timeline="3" key="1" z_index="6"/>
+                    <object_ref id="7" timeline="4" key="1" z_index="7"/>
+                </key>
+                <key id="2" time="66">
+                    <object_ref id="0" timeline="1" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="2" key="2" z_index="1"/>
+                    <object_ref id="2" timeline="0" key="2" z_index="2"/>
+                    <object_ref id="3" timeline="6" key="2" z_index="3"/>
+                    <object_ref id="4" timeline="7" key="2" z_index="4"/>
+                    <object_ref id="5" timeline="3" key="2" z_index="5"/>
+                    <object_ref id="6" timeline="4" key="2" z_index="6"/>
+                    <object_ref id="7" timeline="8" key="0" z_index="7"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="dome">
+                <key id="0" spin="-1">
+                    <object folder="0" file="4" x="-9" y="-2" angle="0"/>
+                </key>
+                <key id="1" time="60">
+                    <object folder="0" file="4" x="-9" y="4.578947" angle="359.662123" scale_x="1.530934" scale_y="1.257386"/>
+                </key>
+                <key id="2" time="66">
+                    <object folder="0" file="4" x="-9" y="-8.64912" angle="359.71747" scale_x="1.148329" scale_y="0.743911"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="back_tentacle">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="15" y="-22" angle="0"/>
+                </key>
+                <key id="1" time="60" spin="0">
+                    <object folder="0" file="3" x="-14.48" y="-22" angle="0"/>
+                </key>
+                <key id="2" time="66" spin="0">
+                    <object folder="0" file="3" x="-10.528176" y="-22.685873" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="back_tentacle_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="-18" y="-20" angle="0" scale_x="-1"/>
+                </key>
+                <key id="1" time="60" spin="0">
+                    <object folder="0" file="3" x="11.31373" y="-20" angle="0" scale_x="-1"/>
+                </key>
+                <key id="2" time="66" spin="0">
+                    <object folder="0" file="3" x="5.634756" y="-22.26316" angle="0" scale_x="-1"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="left_eye">
+                <key id="0" spin="-1">
+                    <object folder="0" file="5" x="-21.624611" y="10.037374" angle="0"/>
+                </key>
+                <key id="1" time="60">
+                    <object folder="0" file="5" x="-21.534004" y="10.352321" angle="359.662123" scale_x="1.094884" scale_y="1.769822"/>
+                </key>
+                <key id="2" time="66">
+                    <object folder="0" file="5" x="-26.752533" y="10.88665" angle="359.69006" scale_x="1.327726" scale_y="1.455436"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="right_eye">
+                <key id="0" spin="-1">
+                    <object folder="0" file="8" x="3.602165" y="9.478711" angle="0"/>
+                </key>
+                <key id="1" time="60">
+                    <object folder="0" file="8" x="3.649376" y="9.216146" angle="359.662123" scale_x="1.120305" scale_y="1.769822"/>
+                </key>
+                <key id="2" time="66">
+                    <object folder="0" file="8" x="4.013263" y="9.907967" angle="359.69006" scale_x="1.356208" scale_y="1.455436"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="mouth_open">
+                <key id="0" spin="-1">
+                    <object folder="0" file="7" x="-4.923852" y="-11.868774" angle="0"/>
+                </key>
+                <key id="1" time="60">
+                    <object folder="0" file="7" x="-4.987842" y="-11.878546" angle="359.662123" scale_x="1.286363" scale_y="1.286363"/>
+                </key>
+            </timeline>
+            <timeline id="6" name="right_front_tentacle">
+                <key id="0" spin="-1">
+                    <object folder="0" file="9" x="16.937175" y="-24.411019" pivot_x="0.095084" pivot_y="0.314245" angle="0"/>
+                </key>
+                <key id="1" time="60">
+                    <object folder="0" file="9" x="16.937175" y="-15.864353" pivot_x="0.095084" pivot_y="0.314245" angle="339.751413"/>
+                </key>
+                <key id="2" time="66" spin="-1">
+                    <object folder="0" file="9" x="15.621386" y="-6.91348" pivot_x="0.095084" pivot_y="0.314245" angle="11.829097"/>
+                </key>
+            </timeline>
+            <timeline id="7" name="left_front_tentacle">
+                <key id="0">
+                    <object folder="0" file="6" x="-18.567922" y="-25.283179" pivot_x="0.922761" pivot_y="0.309972" angle="0"/>
+                </key>
+                <key id="1" time="60" spin="-1">
+                    <object folder="0" file="6" x="-18.567922" y="-16.736513" pivot_x="0.922761" pivot_y="0.309972" angle="8.875543"/>
+                </key>
+                <key id="2" time="66">
+                    <object folder="0" file="6" x="-19.883711" y="-7.78564" pivot_x="0.922761" pivot_y="0.309972" angle="342.247812"/>
+                </key>
+            </timeline>
+            <timeline id="8" name="mouth_blowing">
+                <key id="0" time="66" spin="0">
+                    <object folder="0" file="10" x="-16.015625" y="0.206653" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="inksplash" length="50" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="10">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="30">
+                    <object_ref id="0" timeline="1" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="45">
+                    <object_ref id="0" timeline="1" key="3" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="ink_ball">
+                <key id="0" spin="0">
+                    <object folder="0" file="11" x="-0.806452" y="-1.72926" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="ink_splash_01">
+                <key id="0" spin="0">
+                    <object folder="0" file="12" y="-15.322581" angle="0"/>
+                </key>
+                <key id="1" time="10" spin="0">
+                    <object folder="0" file="13" y="-15.322581" angle="0"/>
+                </key>
+                <key id="2" time="30" spin="0">
+                    <object folder="0" file="14" y="-15.322581" angle="0"/>
+                </key>
+                <key id="3" time="45" spin="0">
+                    <object folder="0" file="15" y="-15.322581" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
